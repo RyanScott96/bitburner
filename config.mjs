@@ -14,9 +14,10 @@ const createContext = async () => await context({
     port: 12525,
     types: 'NetscriptDefinitions.d.ts',
     distribute: {
-      'build/dist': ['home', 'pserv-0', 'pserv-1', 'pserv-2', 'pserv-3']
+      'build/dist': ['home', 'pserv-0', 'pserv-1', 'pserv-2', 'pserv-3', 'pserv-4', 'pserv-5', 'pserv-6', 'pserv-7', 'pserv-8', 'pserv-9']
     },
     usePolling: true,
+    pollingInterval: 50,
   })],
   bundle: true,
   format: 'esm',
